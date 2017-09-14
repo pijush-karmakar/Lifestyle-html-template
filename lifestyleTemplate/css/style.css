@@ -1,0 +1,659 @@
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% ;
+font-family: 'Domine', serif;
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+.pre-header {
+  background: #000 none repeat scroll 0 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding:10px 0;
+}
+.pre-header span {
+  color: #fff;
+  position: absolute;
+  top: -4px;
+}
+#header-area{
+   background-image:url(../images/llywelyn-nys-97260.jpg);
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+.logo {
+  border: 2px solid #7c8083;
+  border-radius: 50%;
+  font-size: 42px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 46px;
+  text-align: center;
+  width: 50px;
+  color: #7c8083;
+  font-family: 'Vidaloka', serif;
+}
+
+.header-left-content input {
+    background: #222 none repeat scroll 0 0;
+    border: 1px solid #7c8083;
+    height: 28px;
+    left: 65px;
+    position: absolute;
+    top: 13px;
+    width: 164px;
+    color: #fff;
+}
+.header-left-content {
+    position: relative;
+}
+.header-left-content i.fa {
+    color: #fff;
+    left: 57%;
+    position: absolute;
+    top: 20px;
+}
+.header-top {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+
+.hitt p {
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+   font-family: 'Vidaloka', serif;
+}
+.hitt .bottle {
+    font-size: 19px;
+    letter-spacing: 5px;
+    margin-top: -30px;
+}
+
+.logo > span {
+    font-size: 35px;
+    left: 60px;
+    position: absolute;
+}
+.header-right-content {
+    position: relative;
+     margin-top: 23px;
+}
+
+.header-left-content {
+    margin-top: 22px;
+}
+
+.header-bg-content .headerimg2 {
+    margin-left: 10px;
+}
+.header-bg-content {
+    padding-top: 85px;
+}
+.social-icon {
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.social-icon i.fa {
+  margin-right: 8px;
+}
+
+#service-area {
+    background: #111 none repeat scroll 0 0;
+    padding: 40px 0;
+}
+.service-bg1{ background: url(../images/about-img-1.jpg); }
+.service-bg2{ background: url(../images/about-img-2.jpg); }
+
+
+.single-service {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  height: 480px;
+  position: relative;
+  width: 50%;
+}
+
+.service-hover{
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.service-hover h2 {
+  color: #fff;
+  font-size: 50px;
+  left: 50%;
+  margin-left: -20%;
+  margin-top: -18px;
+  position: absolute;
+  top: 50%;
+}
+.service-hover img {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.service-hover .arrow2 {
+    left: auto;
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+#about-area {
+  background: rgba(0, 0, 0, 0) url("../images/bg.jpg") no-repeat scroll center center / cover ;
+  height: 65%;
+  padding: 45px 0;
+  width: 100%;
+}
+.about-bg1{background: url(../images/blog-bg-2.jpg);}
+.about-bg2{background: url(../images/blog-bg-3.jpg);}
+.single-about {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  position: relative;
+}
+.about-hover{
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.about-hover h2 {
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 40px;
+  left: 50%;
+  margin-left: -25%;
+  margin-top: -18px;
+  padding: 8px 28px;
+  position: absolute;
+  top: 50%;
+}
+.about-hover img {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.about-hover .arrow2 {
+    left: auto;
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+#testimonial-area {
+  background: rgba(0, 0, 0, 0) url("../images/slide-bg-3.jpg") no-repeat scroll center center / cover ;
+  color: #fff;
+  height: 420px;
+  padding-bottom: 45px;
+  padding-top: 130px;
+  width: 100%;
+  position: relative;
+}
+.testimonial-author{
+    margin-top: 50px;
+}
+#testimonial-area .carousel-indicators{
+position: absolute;
+bottom: -45%;
+}
+.testimonial-content{
+    color: #fff;
+    position: relative;
+}
+
+#testimonial-carousel::before {
+  color: #fff;
+  content: "";
+  font-family: "FontAwesome";
+  font-size: 70px;
+  left: -10%;
+  position: absolute;
+  top: -50px;
+}
+#testimonial-carousel .carousel-indicators li{ background: #575757; }
+#testimonial-carousel .carousel-indicators .active{background:#fff;}
+
+#fun-fact-area{
+    background: #111;
+    color: #fff;
+}
+#fun-fact-area .fun-content {
+  border-right: 1px solid #3d3d3d;
+  padding: 30px 0;
+  position: relative;
+}
+#fun-fact-area .fun-content.last{
+    border: none;
+
+}
+.fun-content i.fa {
+  font-size: 30px;
+  left: -5px;
+  position: absolute;
+  top: 38px;
+}
+.fun-content > p {
+  padding: 0 35px;
+}
+
+.product-bg-1{background: url(../images/ksenia-zakharova-310055.jpg);}
+.product-bg-2{background: url(../images/eddy-klaus-33079.jpg);}
+.product-bg-3{background: url(../images/freestocks-org-182582.jpg);}
+.product-bg-4{background: url(../images/erol-ahmed-80089.jpg);}
+.product-bg-5{background: url(../images/erol-ahmed-80089.jpg);}
+.product-bg-6{background: url(../images/clem-onojeghuo-183586.jpg);}
+.product-bg-7{background: url(../images/becca-tapert-357516.jpg);}
+.product-bg-8{background: url(../images/manik-rathee-131851.jpg );}
+
+.product-list {
+    overflow: hidden;
+    position: relative;
+
+}
+.single-product-item {
+    background-color: #f7f5f4;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 300px;
+    width: 25%;
+}
+.single-hover {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.single-hover::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width:100%;
+    z-index: -1;
+}
+.single-hover > a {
+  color: #fff;
+  font-size: 70px;
+  left: 50%;
+  margin-left: -32px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  transition: all 0.3s ease 0s;
+}
+.single-hover > p {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  left: 50%;
+  margin-left: -34px;
+  margin-top: -15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: all 0.3s ease 0s;
+}
+.single-hover p span {
+  left: -50%;
+  margin-left: -5px;
+  position: absolute;
+  top: 84%;
+}
+
+.single-product-item:hover .single-hover {
+    opacity: 1;
+}
+.single-product-item:hover .single-hover a {
+    margin-top: -50px;
+}
+.single-product-item:hover .single-hover p {
+    margin-top: -20px;
+}
+
+.footer-area {background: #0c0c0c; padding:15px 0;}
+
+ul.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+ul.footer-menu li {
+    display: inline-block;
+    list-style: outside none none;
+}
+ul.footer-menu a {
+    color: #7c8083;
+    text-transform: uppercase;
+}
+.copyright {
+    color: #7c8083;
+}
+
+
+.footer-mid > p {
+    border: 5px solid #7c8083;
+    border-radius: 50%;
+    color: #7c8083;
+    font-size: 90px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin: 0 auto;
+    width: 120px;
+    font-family: 'Vidaloka', serif;
+}
+.footer-hover{
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.footer-hover::after {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 50%;
+  margin-left: -22%;
+  opacity: 0.7;
+  padding:96px 0;
+  position: absolute;
+  top: -26px;
+  width: 45%;
+  z-index: -1;
+}
+
+.footer-hover p {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  left: 50%;
+  margin-left: -15.5%;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: all 0.3s ease 0s;
+  width: 120px;
+}
+.footer-mid:hover .footer-hover {
+    opacity: 1;
+}
+.footer-left-content input {
+    background: #222 none repeat scroll 0 0;
+    border: 1px solid #7c8083;
+    height: 28px;
+    left: 65px;
+    position: absolute;
+    top: 13px;
+    width: 164px;
+    color: #fff;
+}
+.footer-left-content {
+    position: relative;
+}
+.footer-left-content i.fa {
+    color: #fff;
+    left: 57%;
+    position: absolute;
+    top: 20px;
+}
+.footer-hitt p {
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Vidaloka', serif;
+}
+.footer-hitt .bottle {
+    font-size: 19px;
+    letter-spacing: 5px;
+    margin-top: -30px;
+}
+.footer-social-icon {
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-social-icon i.fa {
+  margin-right: 8px;
+}
+
+
+
+/*  Trigger Menu and OFF - Canvus Menu */
+
+.header-right-content{ position: relative; }
+.header-right-content a.menu-trigger {
+  border: 3px solid #fff;
+  display: inline-block;
+  float: right;
+  padding: 8px 5px 2px;
+  position: absolute;
+  right: 78px;
+  top: 4px;
+}
+.header-right-content a.menu-trigger span {
+  background: #fff none repeat scroll 0 0;
+  display: block;
+  height: 3px;
+  margin-bottom: 6px;
+  width: 28px;
+}
+
+
+.off-canvus-menu {
+  background: #373A47 none repeat scroll 0 0;
+  height: 100%;
+  margin-top:-250%;
+  opacity: 0.9;
+  padding: 50px;
+  position: fixed;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  z-index: 9999;
+}
+.off-canvus-menu.active{
+    margin-top: 0;
+} 
+.off-canvus-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 120px 0 0;
+}
+.off-canvus-menu li a {
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2px 0;
+  transition: all 0.3s ease 0s;
+}
+.off-canvus-menu li:hover a{
+    color:#E84F88;
+}
+.menu-close {
+  background: #000 none repeat scroll 0 0;
+  border: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 3px 10px;
+  position: absolute;
+  right: 182px;
+  top: 12%;
+}
+
+.shop-cart {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 25px;
+  padding: 4px 11px;
+  position: absolute;
+  right: 32px;
+  top: 4px;
+}
+.shop-cart:hover i.fa{color:#fff;} 
+.shop-cart i span {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #000;
+  font-size: 16px;
+  height: 20px;
+  line-height: 10px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: -8px;
+  width: 20px;
+}
+
+.off-canvus-menu ul.bottom-menu {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.off-canvus-menu ul.bottom-menu li {
+    display: inline-block;
+}
+.off-canvus-menu ul.bottom-menu li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 5px;
+}
+.off-canvus-menu hr {
+  width: 75%;
+}
+.off-canvus-menu .bottom-social-icon {
+    color: #fff;
+    font-weight: bold;
+    padding: 45px 0;
+}
+.off-canvus-menu .bottom-social-icon i.fa {
+  margin-right: 20px;
+}
+
+/* ---------  Modal -----------------  */
+
+.modal-edit .modal-header {
+  border-bottom:0;
+}
+
+.modal-edit h2 {
+    color: #000;
+    font-size: 55px;
+    text-align: center;
+}
+.modal-edit h2 span {
+    color: red;
+}
+.modal-edit h3 {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.modal-edit .separator {
+    background: #000 none repeat scroll 0 0;
+    height: 1px;
+    margin: 15px auto;
+    width: 30%;
+}
+.modal-edit p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 53px;
+    text-align: center;
+}
+
+.modal-edit input {
+  border: medium none;
+  box-shadow: 0 1px 3px 0;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 8px 10px;
+  width: auto;
+}
+.input-form {
+  text-align: center;
+}
+.modal-edit .join-btn {
+  background: red none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 70px auto 0;
+  padding: 4px 55px;
+  text-align: center;
+}
+.modal-edit .modal-bottom {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 25px 85px 15px;
+}
+.modal-edit-option .close {
+  font-size: 45px;
+  font-weight: normal;
+}
+

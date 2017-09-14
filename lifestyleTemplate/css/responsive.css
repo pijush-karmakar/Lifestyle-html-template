@@ -1,0 +1,304 @@
+@media only screen and (min-width:1200px) and (max-width: 1920px){
+.service-content {
+  overflow: visible;
+}
+#about-area {
+  height: auto;
+}
+.header-bg-content {
+  padding-top: 18px;
+}
+
+
+
+
+
+
+}
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ .footer-hover::after {
+  width: 50%;
+  margin-left: -23%;
+  left:48%;
+} 
+.footer-hover p {
+  margin-left:-18%;
+}
+#testimonial-area .carousel-indicators {
+  bottom: -34%;
+} 
+#testimonial-carousel::before {
+  left: -14%;
+}
+.header-left-content i.fa {
+  left: 70%;
+}
+.footer-left-content i.fa {
+  color: #fff;
+  left: 70%;
+  position: absolute;
+  top: 20px;
+}
+#about-area {
+  height: auto;
+}
+.off-canvus-menu .bottom-social-icon {
+  padding: 18px 0;
+}
+
+
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.header-bg-content {
+  padding-top: 15px;
+}
+#about-area {
+  height: auto;
+} 
+.menu-close {
+  padding: 5px 10px;
+  top: 13%;
+}
+.off-canvus-menu .bottom-social-icon {
+  padding: 30px 0;
+}
+
+.header-right-content .logo {
+  display: none;
+}
+.service-hover h2 {
+  font-size: 35px;
+  margin-left: -22%;
+}
+.about-hover h2 {
+  margin-left: -32%;
+  margin-top: -20px;
+  font-size: 30px;
+}
+.header-left-content i.fa {
+  left: 92%;
+}
+#testimonial-area .carousel-indicators {
+  bottom: -22%;
+}
+.testimonial-content {
+  padding: 0 90px;
+}
+#testimonial-area {
+  height: 350px;
+  padding-top: 70px;
+}
+#testimonial-carousel::before {
+  left: -15%;
+}
+#fun-fact-area .fun-content {
+  border-right: medium none;
+  padding: 30px;
+}
+.fun-content i.fa {
+  left: 20px;
+  top: 36px;
+}
+.single-product-item {
+  width: 33.333%;
+}
+.footer-mid {
+  display: none;
+}
+.footer-left-content i.fa {
+  left: 60%;
+}
+
+
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .footer-mid {
+  display: none;
+}
+.footer-social-icon {
+  text-align: center;
+}
+.footer-hitt p {
+  margin-top: 25px;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+}
+.footer-menu {
+  text-align: center;
+}
+.footer-left-content i.fa {
+  left: 80%;
+}
+.footer-left-content {
+  display: none;
+}
+.single-product-item {
+  width: 100%;
+}
+
+.header-left-content {
+  display: none;
+}
+.header-right-content a.menu-trigger span {
+  height: 2px;
+  margin-bottom: 6px;
+  width: 25px;
+}
+.header-right-content a.menu-trigger {
+  right: 46px;
+  top: 5px;
+}
+.shop-cart {
+  right: 0;
+}
+.header-bg-content {
+  padding-top: 14px;
+}
+.social-icon {
+  padding-top: 13px;
+}
+.single-service {
+  float: left;
+  height: 420px;
+  width: 100%;
+}
+.service-hover h2 {
+  font-size: 35px;
+}
+.service-hover .arrow2 {
+  display: none;
+}
+.service-hover img {
+  display: none;
+}
+.single-about {
+  height: 265px;
+}
+.about-hover h2 {
+  font-size: 28px;
+  padding: 8px 20px;
+}
+#about-area {
+  height: auto;
+}
+.about-hover h2 {
+  left:40%;
+}
+.about-hover .arrow2 {
+  display: none;
+}
+.about-hover img {
+  display: none;
+}
+#testimonial-area {
+  padding-top: 60px;
+}
+#testimonial-carousel::before {
+  display: none;
+}
+#testimonial-area .carousel-indicators {
+  bottom: -40px;
+}
+.testimonial-author {
+  margin-top: 45px;
+  text-align: center;
+}
+#fun-fact-area .fun-content {
+  border-right:none;
+  text-align: left;
+}
+.fun-content i.fa {
+  top: 28px;
+}
+.header-bottom .social-icon {
+  display: none;
+}
+.header-bg-content > img {
+  display: none;
+}
+.off-canvus-menu li a {
+  font-size: 20px;
+}
+.off-canvus-menu .bottom-social-icon {
+  display: none;
+}
+.off-canvus-menu ul.bottom-menu {
+  display: none;
+}
+.off-canvus-menu hr {
+  display: none;
+}
+.menu-close {
+  font-size: 20px;
+  right: 145px;
+}
+.modal-edit h2 {
+  font-size: 40px;
+}
+.modal-edit h3 {
+  font-size: 22px;
+}
+.modal-edit p {
+  font-size: 13px;
+  padding: 5px 15px;
+}
+.modal-edit .modal-bottom {
+  padding: 20px 25px 15px;
+}
+.modal-edit .join-btn {
+  margin: 20px auto 0;
+  padding: 4px 35px;
+}
+
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.single-product-item {
+  width:50%;
+}
+.about-hover h2 {
+  left: 55%;
+}
+.header-bg-content > img {
+  display: none;
+}
+.off-canvus-menu li a {
+  font-size: 20px;
+}
+.off-canvus-menu .bottom-social-icon {
+  display: none;
+}
+.off-canvus-menu ul.bottom-menu {
+  display: none;
+}
+.off-canvus-menu hr {
+  display: none;
+}
+.menu-close {
+  font-size: 20px;
+  right: 145px;
+}
+
+
+
+
+
+
+
+
+}
