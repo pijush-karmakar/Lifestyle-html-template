@@ -1,31 +1,28 @@
 
-a:focus { outline: 0 solid }
-img {
-    max-width: 100%;
-    height: auto;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 15px;
-    font-weight: 700;
-}
+
 html,
 body { height: 100% ;
 font-family: 'Domine', serif;
 }
 
-a:hover { text-decoration: none }
+a:hover { text-decoration: none; }
+a:focus { 
+  outline: 0 solid;
+  text-decoration: none;
+ }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
-
-
 
 .pre-header {
   background: #000 none repeat scroll 0 0;
@@ -176,11 +173,22 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 #about-area {
-  background: rgba(0, 0, 0, 0) url("../images/bg.jpg") no-repeat scroll center center / cover ;
+  
   height: 65%;
   padding: 45px 0;
-  width: 100%;
+  position: relative;
+  
 }
+.about-area-bg{
+  background: rgba(0, 0, 0, 0) url("../images/bg.jpg") no-repeat scroll center center / cover ;
+  background-attachment: fixed;
+  position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .about-bg1{background: url(../images/blog-bg-2.jpg);}
 .about-bg2{background: url(../images/blog-bg-3.jpg);}
 .single-about {
@@ -460,7 +468,7 @@ ul.footer-menu a {
 }
 .footer-hitt .bottle {
     font-size: 19px;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     margin-top: -30px;
 }
 .footer-social-icon {
@@ -476,7 +484,7 @@ ul.footer-menu a {
 
 
 
-/*  Trigger Menu and OFF - Canvus Menu */
+/*  -----------  Trigger Menu and OFF- Canvus Menu ----------- */
 
 .header-right-content{ position: relative; }
 .header-right-content a.menu-trigger {
@@ -496,6 +504,32 @@ ul.footer-menu a {
   width: 28px;
 }
 
+.shop-cart {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 25px;
+  padding: 4px 11px;
+  position: absolute;
+  right: 32px;
+  top: 4px;
+}
+.shop-cart:hover i.fa{color:#fff;} 
+.shop-cart i span {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #000;
+  font-size: 16px;
+  height: 20px;
+  line-height: 10px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: -8px;
+  width: 20px;
+}
+
+
+/* ---------  Off-canvus-menu -----------------  */
 
 .off-canvus-menu {
   background: #373A47 none repeat scroll 0 0;
@@ -539,31 +573,6 @@ ul.footer-menu a {
   right: 182px;
   top: 12%;
 }
-
-.shop-cart {
-  background: #000 none repeat scroll 0 0;
-  color: #fff;
-  font-size: 25px;
-  padding: 4px 11px;
-  position: absolute;
-  right: 32px;
-  top: 4px;
-}
-.shop-cart:hover i.fa{color:#fff;} 
-.shop-cart i span {
-  background: #fff none repeat scroll 0 0;
-  border-radius: 50%;
-  color: #000;
-  font-size: 16px;
-  height: 20px;
-  line-height: 10px;
-  padding: 5px;
-  position: absolute;
-  text-align: center;
-  top: -8px;
-  width: 20px;
-}
-
 .off-canvus-menu ul.bottom-menu {
     margin: 0;
     padding: 0;
