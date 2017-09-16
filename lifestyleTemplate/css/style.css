@@ -679,7 +679,7 @@ ul.footer-menu a {
   margin: 5% 0 0;
   padding: 0;
   position: absolute;
-  right: -30px;
+  right:0;
   top: 50%;
 }
 
