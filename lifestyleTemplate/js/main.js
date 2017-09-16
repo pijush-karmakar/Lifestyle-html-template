@@ -22,7 +22,7 @@ $(".menu-close,.off-canvus-overlay").on("click",function(){
 
 // .........  for smooth scroll  ..........        
 
- $('.smooth-menu a').bind('click', function(event) {
+ $('.smooth-menu a,.sticky-menu li a').bind('click', function(event) {
         var $anchor = $(this);
         var headerH = '0';
         $('html, body').stop().animate({                
@@ -33,18 +33,28 @@ $(".menu-close,.off-canvus-overlay").on("click",function(){
         
     });
 
+ // ..........  For Sticky Header  ............
+
+$(".sticky-menu").sticky({
+           topSpacing:0,
+           zIndex:999
+        });
+  
+// ............  Scroll Spy ............
+
+$('body').scrollspy({
+    target:'.navbar-collapse',
+    offset:95
+});
 
 
-        
+
+
+
 
 
 });
 
-
-    $(window).load(function(){
-        
-        
-    });
 
 
 }(jQuery)); 
