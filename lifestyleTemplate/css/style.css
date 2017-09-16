@@ -3,6 +3,7 @@
 html,
 body { height: 100% ;
 font-family: 'Domine', serif;
+
 }
 
 a:hover { text-decoration: none; }
@@ -562,6 +563,8 @@ ul.footer-menu a {
 .off-canvus-menu li:hover a{
     color:#E84F88;
 }
+
+
 .menu-close {
   background: #000 none repeat scroll 0 0;
   border: 3px solid #fff;
@@ -666,3 +669,53 @@ ul.footer-menu a {
   font-weight: normal;
 }
 
+/*----------- Sticky menu ----------- */
+
+
+.header-bottom .sticky-menu .navbar-nav {
+  border-right: 1px solid #fff;
+  float: none;
+  left: auto;
+  margin: 5% 0 0;
+  padding: 0;
+  position: absolute;
+  right: -30px;
+  top: 50%;
+}
+
+.header-bottom .sticky-menu .nav.navbar-nav li {
+  display: block;
+  float: none;
+  list-style: outside none none;
+  position: relative;
+}
+
+.header-bottom .sticky-menu .navbar-nav > li > a {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  line-height: 3;
+  margin-left: -42px;
+  padding: 20px 0;
+}
+
+.header-bottom .sticky-menu ul.main-menu li.active::before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: -2px;
+  top: 0;
+  width: 3px;
+}
+
+.sticky-wrapper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color:transparent;
+  text-decoration: none;
+}
