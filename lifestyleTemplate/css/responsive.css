@@ -1,3 +1,5 @@
+/*------------  Large Layout: 480px.----------------  */
+
 @media only screen and (min-width:1200px) and (max-width: 1920px){
 .service-content {
   overflow: visible;
@@ -11,14 +13,9 @@
 
 
 
-
-
-
 }
 
-
-
-/* Medium Layout: 1280px. */
+/* ------------- Medium Layout: 1280px. ----------- */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
  .footer-hover::after {
   width: 50%;
@@ -51,11 +48,14 @@
 }
 
 
-
-
 }
-/* Tablet Layout: 768px. */
+
+/* ------------ Tablet Layout: 768px. ---------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.header-bottom .sticky-menu{
+  display: none;
+}
 
 .header-bg-content {
   padding-top: 15px;
@@ -117,13 +117,16 @@
   left: 60%;
 }
 
-
-
-    
+  
 }
-/* Mobile Layout: 320px. */
+
+/* ----------  Mobile Layout: 320px. -------------- */
+
 @media only screen and (max-width: 767px) { 
  .footer-mid {
+  display: none;
+}
+.header-bottom .sticky-menu{
   display: none;
 }
 .footer-social-icon {
@@ -263,13 +266,17 @@
   padding: 4px 35px;
 }
 
-
-    
+  
 }
-/* Wide Mobile Layout: 480px. */
+
+/*------------  Wide Mobile Layout: 480px.----------------  */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 .single-product-item {
   width:50%;
+}
+.header-bottom .sticky-menu{
+  display: none;
 }
 .about-hover h2 {
   left: 55%;
@@ -293,12 +300,6 @@
   font-size: 20px;
   right: 145px;
 }
-
-
-
-
-
-
 
 
 }
