@@ -43,6 +43,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
    width: 100%;
    background-position: center;
    background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 
@@ -129,8 +130,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     background: #111 none repeat scroll 0 0;
     padding: 40px 0;
 }
-.service-bg1{ background: url(../images/about-img-1.jpg); }
-.service-bg2{ background: url(../images/about-img-2.jpg); }
+.service-bg1{ background: url(../images/eddy-klaus-33079.jpg); }
+.service-bg2{ background: url(../images/freestocks-org-182582.jpg); }
 
 
 .single-service {
@@ -190,8 +191,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     width: 100%;
 }
 
-.about-bg1{background: url(../images/blog-bg-2.jpg);}
-.about-bg2{background: url(../images/blog-bg-3.jpg);}
+.about-bg1{background: url(../images/erol-ahmed-80089.jpg);}
+.about-bg2{background: url(../images/eddy-klaus-33079.jpg);}
 .single-about {
   background-position: center center;
   background-repeat: no-repeat;
@@ -233,7 +234,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 #testimonial-area {
-  background: rgba(0, 0, 0, 0) url("../images/slide-bg-3.jpg") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../images/slide-bg-2.jpg") no-repeat scroll center center / cover ;
   color: #fff;
   height: 420px;
   padding-bottom: 45px;
@@ -446,7 +447,7 @@ ul.footer-menu a {
     background: #222 none repeat scroll 0 0;
     border: 1px solid #7c8083;
     height: 28px;
-    left: 65px; 
+    left: 65px;
     position: absolute;
     top: 13px;
     width: 164px;
