@@ -48,13 +48,19 @@ $('body').scrollspy({
 });
 
 
-
+//Initiat WOW JS ......
+  new WOW().init();
 
 
 
 
 });
 
+
+    $(window).load(function(){
+        
+        
+    });
 
 
 }(jQuery)); 
